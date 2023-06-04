@@ -36,7 +36,7 @@ jobs:
         with:
           node-version-file: '.nvmrc'
       - name: Install node modules
-        run: npm ci
+        run: npm install
       - name: Generate key
         run: php artisan key:generate
       - name: Directory Permissions
