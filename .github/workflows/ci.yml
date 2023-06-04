@@ -48,6 +48,6 @@ jobs:
       - name: Run PHP tests
         env:
           DB_DATABASE: laravel_test
-          DB_USER: laravel_test
+          DB_USERNAME: laravel_test
           DB_PASSWORD: password
         run: php artisan test
